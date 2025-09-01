@@ -1,4 +1,4 @@
-# TomoDesk
+# TomeDesk
 
 <img src="./images/logo_bg-white.jpg" width="400">
 
