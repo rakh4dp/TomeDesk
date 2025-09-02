@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const poster = document.createElement('img');
             
             const uniqueImageId = categoryIndex * 15 + i;
-            poster.src = `https://picsum.photos/200/300?random=${uniqueImageId}`;
+            poster.src = `https://picsum.photos/200/300?random=${uniqueImageId}`; //nanti hubungin sama php
             poster.alt = `Sampul Buku ${category} ${i}`;
 
             bookCard.appendChild(poster);
@@ -41,4 +41,5 @@ document.addEventListener('DOMContentLoaded', function() {
         row.appendChild(postersContainer);
         contentContainer.appendChild(row);
     });
+
 });
